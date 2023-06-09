@@ -358,6 +358,16 @@ h1 {
     z-index: 10;
 }
 
+
+h101 {
+    font-size: 18px;
+    font-weight: 600;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    z-index: 10;
+    display:block;
+}
+
 svg:not(.endable-pointer) {
     pointer-events: none;
 }
@@ -835,6 +845,17 @@ select:disabled {
     font-weight: 600;
     color: #f19028;
 }
+
+.tour-container h101 {
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1;
+    margin: 7px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f19028;
+}
+
 
 .tour-container .pin-img {
     width: 125px;
